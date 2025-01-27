@@ -384,7 +384,7 @@ plt.show()
 
 from huggingface_hub import InferenceClient
 
-client = InferenceClient(api_key="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")  # ваш токен с  HuggingFace
+client = InferenceClient(api_key="")  # ваш токен с  HuggingFace
 
 """Базово запустим модель через serverless API, предоставляемый HuggingFace. Это самый простой способо интегрировать модель в колаб. Для использования в реальных приложениях он не подойдет."""
 
